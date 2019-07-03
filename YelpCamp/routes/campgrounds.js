@@ -5,7 +5,7 @@ var Campground   =require("../models/campground");
 var middleware   =require("../middleware");
 var Review = require("../models/review");
 var NodeGeocoder = require('node-geocoder');
- 
+var Comment=require("../models/comment"); 
 var options = {
   provider: 'google',
   httpAdapter: 'https',
